@@ -32,12 +32,12 @@ var loadTasks = function() {
   }
 
   // loop over object properties
-//   $.each(tasks, function(list, arr) {
-//     // then loop over sub-array
-//     $(arr).forEach(function(task) {
-//       createTask(task.text, task.date, list);
-//     });
-//   });
+  $.each(tasks, function(list, arr) {
+    // then loop over sub-array
+    arr.forEach(function(tasks) {
+      createTask(tasks.text, tasks.date, list);
+    });
+  });
 };
 
 var saveTasks = function() {
