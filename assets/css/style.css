@@ -1,3 +1,12 @@
 ul.list-group {
   min-height: 130px;
 }
+
+.form-group {
+  position: relative;
+}
+
+.task-label {
+  position: relative;
+  bottom: 60px;
+}
